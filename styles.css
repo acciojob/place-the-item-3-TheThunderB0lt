@@ -1,2 +1,18 @@
-
 /* Your CSS Code here. */
+.holder {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	top: 20px;
+	bottom: 20px;
+	flex-direction: row;
+	align-items: center;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: grey;
+	border: 2px solid black;
+	color: white;
+}
